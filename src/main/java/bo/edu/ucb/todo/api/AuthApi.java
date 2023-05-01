@@ -6,9 +6,10 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin(origins = "*")
-class AuthApi {
-
-    @PostMapping("/api/v1/auth/login")
+@RequestMapping("/api/v1/auth")
+public class AuthApi {
+    
+    @PostMapping("/login")
     public ResponseDto<TokenDto> login(@RequestBody LoginDto login) {
         ResponseDto<TokenDto> response = new ResponseDto<>();
         AuthBl authBl = new AuthBl();

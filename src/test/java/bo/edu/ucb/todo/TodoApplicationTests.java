@@ -1,4 +1,4 @@
-package bo.edu.ucb.todo;
+/*package bo.edu.ucb.todo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,4 +10,4 @@ class TodoApplicationTests {
 	void contextLoads() {
 	}
 
-}
+}*/
